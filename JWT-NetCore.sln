@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT-NetCore.Services", "JWT-NetCore.Services\JWT-NetCore.Services.csproj", "{9DBFDFFC-BEE5-49E3-A25E-D02D31C2DC89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT-NetCore.Core", "JWT-NetCore.Core\JWT-NetCore.Core.csproj", "{64C087C4-58A2-410C-9D22-691535D3416C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DBFDFFC-BEE5-49E3-A25E-D02D31C2DC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBFDFFC-BEE5-49E3-A25E-D02D31C2DC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBFDFFC-BEE5-49E3-A25E-D02D31C2DC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBFDFFC-BEE5-49E3-A25E-D02D31C2DC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C087C4-58A2-410C-9D22-691535D3416C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C087C4-58A2-410C-9D22-691535D3416C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C087C4-58A2-410C-9D22-691535D3416C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C087C4-58A2-410C-9D22-691535D3416C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A786FC7-9217-4456-8026-F7930A13F449}
+	EndGlobalSection
+EndGlobal
