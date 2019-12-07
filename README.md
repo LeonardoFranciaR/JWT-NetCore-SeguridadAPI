@@ -1,6 +1,9 @@
 # Información y Ejemplo en la WIKI 
 https://github.com/LeonardoFranciaR/JWT-SeguridadAPI/wiki/JWT---Seguridad-en-API's
 
+# Lenguaje y Framework
+C# / NetCore.
+
 --README.md VISUAL STUDIO--
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
