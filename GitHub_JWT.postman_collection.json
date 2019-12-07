@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "584ee39c-49f9-499d-a214-4e070ee92f54",
+		"name": "GitHub_JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generate Token JWT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/token/GetToken?GUID=E8131AB1-9765-4B3C-8CC0-9E56DE60547C",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"token",
+						"GetToken"
+					],
+					"query": [
+						{
+							"key": "GUID",
+							"value": "E8131AB1-9765-4B3C-8CC0-9E56DE60547C"
+						}
+					]
+				},
+				"description": "Reemplazar en caso tengo otro host o cambie el puerto"
+			},
+			"response": []
+		},
+		{
+			"name": "InformationController",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRTgxMzFBQjEtOTc2NS00QjNDLThDQzAtOUU1NkRFNjA1NDdDIiwibmJmIjoxNTc1NjY4NzM1LCJleHAiOjE1NzU2NjkwMzV9.9EuRaOKZqFWDEI10lAc4-aVjyJLk1bjg4cTy2OVVBUk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"description": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYjMzYmU1ZTktNDczOS00YTBmLTljMGUtY2VkYjQ2YjEzMDZiIiwibmJmIjoxNTY1NjQ0NTAyLCJleHAiOjE1NjU2NDQ4MDJ9.CbmjvUKWxcSMaj3u-s1Chd51mM5zx9fQelNITu_lWFY",
+						"key": "",
+						"type": "text",
+						"value": ""
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/control/GetExample",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"control",
+						"GetExample"
+					]
+				},
+				"description": "Reemplazar en caso tengo otro host o cambie el puerto"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
